@@ -53,16 +53,16 @@ Failure to meet these requirements may result in incomplete processing, applicat
 python generate_audio.py
 
 # 2️⃣ Compress WAV into MP3 blocks
-python compress_audio.py
+python generate_video.py
 
 # 3️⃣ Convert audio back into spectrogram frames
-python generate_spectrograms.py
+python generate_mp3_from_wav.py
 
 # 4️⃣ Merge frames into video
-python create_video.py
+python merge_mp3.py
 
 # 5️⃣ Merge compressed MP3 with video
-python merge_audio_video.py
+python release.py
 
 # 6️⃣ Clean temporary files
-python cleanup.py
+python clean.py

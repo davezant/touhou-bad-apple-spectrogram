@@ -1,2 +1,68 @@
-# touhou-bad-apple-spectrogram
-Bad Apple running through the spectrogram — each frame transformed into sound, every note painting the iconic shadows of the animation in audio.
+<p align="center">
+  <img src="https://media1.tenor.com/m/D6bM8ez99HkAAAAC/sakuya-izayoi-speen.gif" width="300" alt="Bad Apple GIF"/>
+</p>
+
+<h1 align="center">🍎 Bad Apple Stenography</h1>
+
+<p align="center">
+  <strong>Turning sound into shadowy chaos — Bad Apple in spectrogram form!</strong>
+</p>
+
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/python-3.10+-blue?style=flat-square&logo=python" alt="Python 3.10+"/></a>
+  <a href="https://ffmpeg.org"><img src="https://img.shields.io/badge/ffmpeg-required-orange?style=flat-square" alt="FFmpeg"/></a>
+  <a href="https://github.com/davezant/bad-apple-stenography/issues"><img src="https://img.shields.io/github/issues/davezant/bad-apple-stenography?style=flat-square" alt="GitHub issues"/></a>
+</p>
+
+---
+
+## 🔹 What’s This?
+
+**Bad Apple as a Spectrogram**  
+Just that. Watch it run… if you dare.  
+
+
+---
+### ⚠️ System Requirements & Resource Warning
+
+> **Please note:** Processing the full set of frames and generating spectrogram-based audio can be **resource-intensive**.
+
+- **Memory:** Ensure sufficient RAM is available (recommended **16 GB or more**) to prevent performance issues or crashes.
+- **Disk Space:** Temporary and output files may require **10–20 GB** of free disk space.
+- **Processing Speed:** Running on an SSD is strongly recommended for faster read/write operations.
+- **System Load:** Close unnecessary applications to avoid excessive system load during processing.
+
+Failure to meet these requirements may result in incomplete processing, application errors, or corrupted output files.
+
+
+---
+
+## 🛠 Requirements
+
+- Python 3.10+  
+- [FFmpeg](https://ffmpeg.org/download.html)  
+- Python packages:  
+  `numpy`, `Pillow`, `scipy`, `matplotlib`, `pydub`, `tqdm`, `opencv-python`
+
+---
+
+## 🎬 How to Use
+
+```bash
+# 1️⃣ Generate audio chunks from frames
+python generate_audio.py
+
+# 2️⃣ Compress WAV into MP3 blocks
+python compress_audio.py
+
+# 3️⃣ Convert audio back into spectrogram frames
+python generate_spectrograms.py
+
+# 4️⃣ Merge frames into video
+python create_video.py
+
+# 5️⃣ Merge compressed MP3 with video
+python merge_audio_video.py
+
+# 6️⃣ Clean temporary files
+python cleanup.py

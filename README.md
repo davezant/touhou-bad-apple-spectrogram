@@ -48,6 +48,9 @@ Failure to meet these requirements may result in incomplete processing, applicat
 
 ## 🎬 How to Use
 
+1. Download `ffmpeg.exe` and place it in the `binaries/` folder.  
+2. Download the frame images from `https://github.com/Felixoofed/badapple-frames/`, unzip and place them in the `frames/` folder.  
+
 ```bash
 # 1️⃣ Generate audio chunks from frames
 python generate_audio.py

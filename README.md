@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://python.org"><img src="https://img.shields.io/badge/python-3.10+-blue?style=flat-square&logo=python" alt="Python 3.10+"/></a>
   <a href="https://ffmpeg.org"><img src="https://img.shields.io/badge/ffmpeg-required-orange?style=flat-square" alt="FFmpeg"/></a>
-  <a href="https://github.com/davezant/bad-apple-stenography/issues"><img src="https://img.shields.io/github/issues/davezant/bad-apple-stenography?style=flat-square" alt="GitHub issues"/></a>
 </p>
 
 ---
